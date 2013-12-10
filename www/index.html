@@ -36,7 +36,7 @@ a:active {text-decoration:none;}
            BONTON PALACE
            </p>
        </div>
-       </a><a href="mycollectin.html">
+       </a><a href="#" onclick="$('#content').fadeOut('fast' ,function() { $('#content').load('mycollectin.html') });$('#content').fadeIn('fast' ,function() { snapper.close('left'); });">
        <div id='m-collectin' class='clearfix' >
            <p id='m-collectintext'>
            MY COLLECT IN
@@ -65,5 +65,7 @@ a:active {text-decoration:none;}
        <div id='m-nebuloasa' class='clearfix'>
        </div>
 	</div>
+	  <script src="js/jquery-1.10.2.min.js" /></script>
+	  
 </body>
 </html>
