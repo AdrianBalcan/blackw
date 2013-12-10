@@ -1,5 +1,5 @@
 /* This code is only meant for previewing your Reflow design. */
-.primaryContainer {
+.m-primaryContainer {
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +9,7 @@
     background-color: rgb(0, 0, 0);
     -webkit-user-select: none;     
 }
-#header {
+#m-header {
     float: none;
     height: 250px;
     margin-left: auto;
@@ -29,7 +29,7 @@
 body {
     color:#000000;
 }
-#status {
+#m-status {
     float: left;
     height: 32px;
     margin-left: 0px;
@@ -47,7 +47,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat repeat;
 }
-#statustext {
+#m-statustext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -65,7 +65,7 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#locatietext {
+#m-locatietext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -83,7 +83,7 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#collectin {
+#m-collectin {
     float: none;
     height: 100px;
     margin-left: auto;
@@ -100,7 +100,7 @@ body {
  
 
 }
-#collectintext {
+#m-collectintext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -130,7 +130,7 @@ body {
     position: relative;
     margin-right: auto;
 }
-#locatie {
+#m-locatie {
     float: none;
     height: 100px;
     margin-left: auto;
@@ -152,7 +152,7 @@ body {
  
 
 }
-#treasure {
+#m-treasure {
     float: none;
     height: 100px;
     margin-left: auto;
@@ -168,7 +168,7 @@ body {
     background-repeat: repeat no-repeat;
  
 }
-#treasuretext {
+#m-treasuretext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -185,7 +185,7 @@ body {
     text-transform: uppercase;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#discover {
+#m-discover {
     float: none;
     height: 100px;
     margin-left: auto;
@@ -202,7 +202,7 @@ body {
     background-repeat: repeat no-repeat;
  
 }
-#discovertext {
+#m-discovertext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -219,7 +219,7 @@ body {
     text-transform: uppercase;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#using {
+#m-using {
     float: none;
     height: 100px;
     margin-left: auto;
@@ -235,7 +235,7 @@ body {
     background-repeat: repeat no-repeat;
  
 }
-#usingtext {
+#m-usingtext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -252,7 +252,7 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#games {
+#m-games {
     float: none;
     height: 100px;
     margin-left: auto;
@@ -269,7 +269,7 @@ body {
     background-repeat: repeat no-repeat;
  
 }
-#image {
+#m-image {
     float: left;
     width: 1.8em;
     max-width: 100%;
@@ -279,7 +279,7 @@ body {
     clear: none;
     color: rgb(0, 0, 0);
 }
-#nebuloasa {
+#m-nebuloasa {
     float: none;
     height: 60px;
     margin-left: auto;
@@ -288,7 +288,7 @@ body {
     width: 83.32%;
     margin-right: auto;
 }
-#gamestext {
+#m-gamestext {
     float: left;
     font-size: 1em;
     width: auto;
@@ -434,59 +434,59 @@ body {
 }
 @media only screen and (min-width: 360px) {
 
-   #statustext {
+   #m-statustext {
    }
-   .primaryContainer {
+   .m-primaryContainer {
    }
 }
 @media only screen and (min-width: 480px) {
 
-   #locatietext {
+   #m-locatietext {
    }
-   #collectintext {
+   #m-collectintext {
    }
-   #collectin {
+   #m-collectin {
    }
-   #header {
+   #m-header {
         clear: none;
    }
-   #status {
+   #m-status {
         clear: none;
    }
-   #statustext {
+   #m-statustext {
    }
    #logo {
         clear: none;
         color: rgb(0, 0, 0);
    }
-   .primaryContainer {
+   .m-primaryContainer {
    }
 }
 @media only screen and (min-width: 540px) {
 
-   #statustext {
+   #m-statustext {
    }
-   #header {
+   #m-header {
    }
    #logo {
    }
-   #status {
+   #m-status {
    }
 }
 @media only screen and (min-width: 640px) {
 
-   #discover {
+   #m-discover {
         clear: none;
    }
    #logo {
    }
-   #header {
+   #m-header {
    }
-   #locatie {
+   #m-locatie {
    }
-   #collectin {
+   #m-collectin {
    }
-   #treasure {
+   #m-treasure {
    }
 }
 @media only screen and (min-width: 854px) {
@@ -611,7 +611,7 @@ body {
 }
 @media only screen and (min-width: 960px) {
 
-   .primaryContainer {
+   .m-primaryContainer {
    }
    #grid .column.grid-0 {
         margin-left: 1.2%;
@@ -721,14 +721,14 @@ body {
 }
 @media only screen and (min-width: 1032px) {
 
-   .primaryContainer {
+   .m-primaryContainer {
    }
-   #header {
+   #m-header {
         clear: none;
         width: 83.320546237534%;
         height: 250px;
    }
-   #status {
+   #m-status {
         clear: none;
         position: static;
         top: 0px;
@@ -739,22 +739,22 @@ body {
         margin-right: auto;
         float: none;
    }
-   #statustext {
+   #m-statustext {
         float: left;
         font-weight: normal;
         word-wrap: break-word;
         clear: none;
    }
-   #locatietext {
+   #m-locatietext {
         float: left;
         word-wrap: break-word;
         clear: none;
    }
-   #collectin {
+   #m-collectin {
         width: 83.320546237534%;
         height: 100px;
    }
-   #collectintext {
+   #m-collectintext {
         float: left;
         width: auto;
         height: auto;
@@ -767,16 +767,16 @@ body {
    }
    #logo {
    }
-   #locatie {
+   #m-locatie {
         width: 83.320546237534%;
         height: 100px;
    }
-   #treasure {
+   #m-treasure {
         margin-top: 0px;
         width: 83.320546237534%;
         height: 100px;
    }
-   #treasuretext {
+   #m-treasuretext {
         font-size: 1em;
         text-align: left;
         font-weight: normal;
@@ -784,22 +784,22 @@ body {
         clear: none;
         color: rgb(255, 255, 255);
    }
-   #discover {
+   #m-discover {
         clear: none;
         width: 83.36021078875793%;
         height: 100px;
    }
-   #discovertext {
+   #m-discovertext {
         float: left;
         word-wrap: break-word;
         clear: none;
    }
-   #using {
+   #m-using {
         clear: none;
         width: 83.320546237534%;
         height: 100px;
    }
-   #usingtext {
+   #m-usingtext {
         float: left;
         font-size: 1em;
         text-align: left;
@@ -810,17 +810,17 @@ body {
         text-transform: uppercase;
         color: rgb(255, 255, 255);
    }
-   #games {
+   #m-games {
         clear: none;
    }
-   #image {
+   #m-image {
         clear: none;
         color: rgb(0, 0, 0);
    }
-   #nebuloasa {
+   #m-nebuloasa {
         clear: none;
    }
-   #gamestext {
+   #m-gamestext {
         word-wrap: break-word;
         clear: none;
    }
